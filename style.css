@@ -1,0 +1,212 @@
+  @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: antiquewhite;
+  background-color: black;
+  
+}
+/*-----navigation-------*/
+
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0,0,0, 0.7)!important;
+} 
+.navbar-brand img{
+  height: 2rem;
+}
+.navbar-nav li{
+  padding-right: .7rem;
+
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+color: red;
+}
+
+/*-----landing page starting------*/
+.home-inner{
+  background-image: url(img/benz.jpg);
+  filter: brightness(50%);
+  position: absolute;
+}
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+.caption h1{
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+  padding-top: 6rem;
+}
+.btn-lg{
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+}
+.heading {
+  font-size: 20px;
+}
+
+#about1 {
+  
+  background: url(img/about1.png) no-repeat ;
+  background-size: cover;   
+  color: #ffffff;
+  height: 550px;
+  width: 100%;
+  padding-top: 100px; 
+  padding-bottom: 550px;
+}
+#about1 p{
+  font-size: 20px;
+}
+#about2 {
+  
+  background: url(img/blackaudi.png) no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+  padding-top: 180px; 
+  padding-bottom: 180px;
+  text-align: right;
+  
+}
+#about3 {
+  
+  background: url(img/about9.png) no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+  padding-top: 100px; 
+  padding-bottom: 100px;
+}
+.card-group{
+  padding-top: 100px; 
+  padding-bottom: 100px;
+  opacity: .9;
+  
+}
+#services{
+  background: black;
+
+}
+#about4{
+  padding-top: 120px; 
+  padding-bottom: 120px;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#contact{
+  background: #202020;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #D3D3D3;
+}
+#contact h5,h3{
+  font-family: 'Roboto', sans-serif;
+}
+#contact p{
+  margin-top: 10px;
+}
+#map{
+  height: 150px;
+  width: 80%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+ 
+@media (max-width:768px){
+  #about1 p{
+    font-size: 15px;
+  }
+  #about1 h1{
+    font-size: 20px;
+  }
+  #about1 #logo2 img{
+    width: 10px;
+    height: 20px;
+  }
+  #about2{
+    background: url(img/blackaudi2.png) no-repeat center center;
+  }
+  #about2 h1{
+    font-size: 20px;
+  }
+  .caption h1{
+    font-size: 1.5rem;
+  }
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
