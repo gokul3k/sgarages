@@ -1,12 +1,79 @@
   @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
-
+  @import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
 body{
   overflow-x: hidden;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Carter One', cursive;
   color: antiquewhite;
   background-color: black;
   
 }
+/*-----Loading Screen-------*/
+
+#centralise{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.line{
+  position: sticky;
+  display: inline-flex;
+  height: 60px;
+  border-radius: 10px;
+  width: 10px;
+  background: white;
+}
+#l1{
+  animation: anim 2s linear infinite;
+  animation-delay: 0s;
+}
+#l2{
+  animation: anim 2s linear infinite;
+  animation-delay: 0.12s;
+}
+#l3{
+  animation: anim 2s linear infinite;
+  animation-delay: 0.24s;
+}
+#l4{
+  animation: anim 2s linear infinite;
+  animation-delay: 0.36s;
+}
+#l5{
+  animation: anim 2s linear infinite;
+  animation-delay: 0.48s;
+}
+#l6{
+  animation: anim 2s linear infinite;
+  animation-delay: 0.60s;
+}
+#l7{
+  animation: anim 2s linear infinite;
+  animation-delay: 0.72s;
+}
+#l8{
+  animation: anim 2s linear infinite;
+  animation-delay: 0.84s;
+}
+#l9{
+  animation: anim 2s linear infinite;
+  animation-delay: 0.96s;
+}
+#l10{
+  animation: anim 2s linear infinite;
+  animation-delay: 1.08s;
+}
+@keyframes anim{
+  25%{
+      transform: scale(0,2.5);
+  }
+  50%{
+      transform: scale(1);
+  }
+}
+
+
+
 /*-----navigation-------*/
 
 .navbar{
@@ -14,7 +81,7 @@ body{
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
-  background: rgba(0,0,0, 0.7)!important;
+  background: rgba(0,0,0, 0.85)!important;
 } 
 .navbar-brand img{
   height: 2rem;
@@ -80,13 +147,16 @@ color: red;
 }
 #about2 {
   
-  background: url(img/blackaudi.png) no-repeat center center;
-  background-size: cover;
-  color: #ffffff;
-  padding-top: 180px; 
-  padding-bottom: 180px;
-  text-align: right;
+  /* background: url(img/blackaudi.png) no-repeat center center; */
   
+  color: #ffffff;
+  padding-top: 120px; 
+  padding-bottom: 120px;
+
+  
+}
+#about2 h1{
+  text-align: right;
 }
 #about3 {
   
@@ -141,7 +211,7 @@ color: red;
   color: #D3D3D3;
 }
 #contact h5,h3{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Carter One', cursive;
 }
 #contact p{
   margin-top: 10px;
@@ -150,6 +220,7 @@ color: red;
   height: 150px;
   width: 80%;
 }
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -180,11 +251,9 @@ color: red;
     width: 10px;
     height: 20px;
   }
-  #about2{
-    background: url(img/blackaudi2.png) no-repeat center center;
-  }
+ 
   #about2 h1{
-    font-size: 20px;
+    font-size: 35px;
   }
   .caption h1{
     font-size: 1.5rem;
