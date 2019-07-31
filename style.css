@@ -4,8 +4,11 @@ body{
   overflow-x: hidden;
   font-family: 'Carter One', cursive;
   color: antiquewhite;
-  background-color: black;
-  
+  background-color: black; 
+}
+#contents
+{
+visibility: hidden;
 }
 /*-----Loading Screen-------*/
 
