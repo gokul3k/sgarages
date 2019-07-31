@@ -1,408 +1,291 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>S Garages</title>
-	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="css/fixed.css">
-	<link rel="stylesheet" href="css/animation.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-</head>
-
-<body data-spy="scroll" data-target="#navbarResponsive">
-
-		<div id='centralise'>
-				<div id='l1' class='line'></div>
-				<div id='l2' class='line'></div>
-				<div id='l3' class='line'></div>
-				<div id='l4' class='line'></div>
-				<div id='l5' class='line'></div>
-				<div id='l6' class='line'></div>
-				<div id='l7' class='line'></div>
-				<div id='l8' class='line'></div>
-				<div id='l9' class='line'></div>
-				<div id='l10' class='line'></div>
-	</div> 
-
-	<div id="contents">
-		
-	
-   
-<!-------- Start Home Section---------->
-<div id="home">
-<!-------- Naviagation Section---------->
-
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-	
-	<a class="navbar-brand" href="#">
-		<img src="img/logo2.png"  style="min-width: 60%; height:50px; " alt="logo"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" 
-		data-target="#navbarResponsive">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarResponsive">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="#home">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#about1">About Us</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#services">Services</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#gallery">Gallery</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#contact">Contact Us</a>
-				</li>
-			</ul>
-		</div>
-	
-</nav>
-
-<!-------- End Naviagation Section---------->
-<div class="landing">
-	<div class="home-wrap">
-		<div class="home-inner">
-
-		</div>
-	</div>
-</div>
-
-<div class="caption text-center">
-	<h1><span>LIKE NOTHING ELSE...</span></h1>
-	<a class=" btn btn-outline-light btn-lg" style="background-color: red;" href="#about1" >Get Started</a>
-</div>
-
-</div>
-<!-------- End Home Section---------->
-
-<!-------- Start About us Section---------->
-
-<section id="about1">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-sm-12">
-					<div class="section-title">
-
-						<h1><b>WHO WE ARE</b></h1>
-						
-					</div>
-				</div>
-
-				<div class="col-md-12  col-sm-12 col-lg-9 ">
-						<p><span style="color: red;">S </span><span style="color: red;"> G</span>arage was born out of pure passion, the love of cars and
-							the desire to create best car care products, with a focus on protective 
-							coatings-the cornerstone of our success.</p>
-						<p>We aim to produce the most <span style="color: red;">Innovative</span> surface care products in the
-							world following the discovery that the other so called "long-life" aftermarket
-							coating simply dont come anywhere close to their market claim</p>
-								<div class="text-center">
-								   <img id ="logo2" src="img/logo.png" style="width: 75px; height:100px; " alt="logo">
-							    </div>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-
-	<section id="about2">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-sm-12 col-lg-6">
-						<img id="imageSlide" src="img/backaudi2.jpg" >
-					
-				</div>
-				<div class="col-md-6 col-sm-12 col-lg-6 text-center">
-						<h1 id="imageSlide1">WE <span style="color: red;">LOVE </span><br> YOUR <span style="color: red;"> CAR</span> AS SAME<br>AS YOU DO</h1>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	<section id="about3">
-		<div class="container">
-			<div class="row">
-				<div class="card-group ">
-					<div class="card bg-dark" >
-					  
-					  <div class="card-body">
-						<h5 class="card-title"><i class="fas fa-wrench" style="color: red; width:45px;height:45px;"></i>TRAINED PROFESSIONALS</h5>
-						<p class="card-text">To ensure that only highest level of automotive professionals work
-							on your car, <span style="color: red;">S </span><span style="color: red;"> D</span>ETAILING <span style="color: red;"> G</span>ARAGE has partnered with industrial institutes all across India.
-						</p>
-					  </div>
-					  
-					</div>
-					<div class="card bg-dark">
-					  
-					  <div class="card-body">
-						<h5 class="card-title"><i class="fas fa-handshake" style="color: red; width:50px;height:50px;"></i>PERFECT QUALITY</h5>
-						<p class="card-text">Let us help bring out the shine in your car.Whether your <span style="color: red;"> detailing </span> your personal car or
-							if you operated a detail shop,We have the best quality detailing products.
-						</p>
-					  </div>
-					  
-					</div>
-					<div class="card bg-dark">
-					  
-					  <div class="card-body">
-						<h5 class="card-title"><i class="fas fa-box-open" style="color: red; width:50px;height:50px;"></i>BEST PRODUCT USED</h5>
-						<p class="card-text">We've got products here that cover all bases, You'll want to home in on your alloys
-							witha quality car wheel cleaner, get the trim back to its<span style="color: red;">  original </span> lustre.
-						</p>
-					  </div>
-					  
-					</div>
-				  </div>
-				
-			</div>
-		</div>
-	</section>
-	
-<!-------- End About Us Section---------->
-
-<!-------- Start Services Section---------->
-<div id="services">
-		
-		<section id="about4">
-			<div class="container">
-				
-						<h1 style="padding-bottom: 20px; "><b>OUR SERVICES</b></h1>
-					
-				<div class="text-center">
-					<div class="row">
-								<div class="col-sm-12 col-lg-6 col-md-12">
-								  <div class="card" style="height: 300px; width: 100%; border:none;" >
-									<div class="card-body"  style="background-image: url(img/services2.jpg)">
-									  <h2 class="card-title" style="padding-top: 100px;"><b>CAR DETAILING</b></h2>
-									  
-									</div>
-								  </div>
-								</div>
-								<div class="col-sm-12 col-lg-6 col-md-12">
-								  <div class="card "  style="height: 300px; width: 100%;border:none;">
-									<div class="card-body"  style="background-image: url(img/services1.jpg)">
-									  <h2 class="card-title" style="padding-top: 100px;"><b>CAR WASH</b></h2>
-									  
-									</div>
-								  </div>
-								</div>
-						</div>
-						<div class="row">
-								<div class="col-sm-12 col-lg-6 col-md-12">
-								  <div class="card" style="height: 300px; width: 100%;border:none;">
-									<div class="card-body"  style="background-image: url(img/services3.jpg)" >
-									  <h2 class="card-title" style="padding-top: 100px;"><b>INSPECTION</b></h2>
-									  
-									</div>
-								  </div>
-								</div>
-								<div class="col-sm-12 col-lg-6 col-md-12">
-								  <div class="card" style="height: 300px; width: 100%;border:none;">
-									<div class="card-body" style="background-image: url(img/services4.jpg)">
-									  <h2 class="card-title" style="padding-top: 100px;"><b>VINYL WRAPPING</b></h2>
-									  
-									</div>
-								  </div>
-								</div>
-						</div>
-				</div>
-			</div>
-			</section>
-
-</div>
-<!-------- End Services Section---------->
-
-<!-------- Start Gallery Section---------->
-
-<div id="gallery" class="offset">
-	<div class="container">
-		<h1 style="padding-bottom: 20px;padding-top: 75px;"><b>GALLERY</b></h1>
-		<div class="row"> 
-				<div class="column">
-				  <img src="img/1.jpg" style="width:100%">
-				  <img src="img/2.jpg" style="width:100%">
-				  <img src="img/3.jpg" style="width:100%">
-				 
-				</div>
-				<div class="column">
-				  <img src="img/4.jpg" style="width:100%">
-				  <img src="img/5.jpg" style="width:100%">
-				  <img src="img/6.jpg" style="width:100%">
-				  
-				</div>  
-				<div class="column">
-				  <img src="img/7.jpg" style="width:100%">
-				  <img src="img/8.jpg" style="width:100%">
-				  <img src="img/1.jpg" style="width:100%">
-				  
-				</div>
-				<div class="column">
-				  <img src="img/2.jpg" style="width:100%">
-				  <img src="img/3.jpg" style="width:100%">
-				  <img src="img/4.jpg" style="width:100%">
-				  
-				</div>
-			  </div>
-		</div>
-
-</div>
-<!-------- End Gallery Section---------->
-
-<!-------- Start Contact Section---------->
-<section id="contact">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 col-md-8 col-sm-12">
-					<h5><b>TALK WITH A HUMAN</b></h5>
-					
-					<h7><i class="fas fa-phone-square" style="width:25px;height:25px;" ></i>
-						<b>7034391234</b></h7><br>
-					<h7><i class="fas fa-phone-square" style="width:25px;height:25px;" ></i>
-						<b>9072792255</b></h7>
-					
-					<br/><br/>
-					<h5><b>WE ARE ON SOCIAL MEDIA</b></h5>
-					<i class="fab fa-facebook" style="width:45px;height:45px; padding-right: 20px;"></i>
-					<i class="fab fa-twitter" style="width:45px;height:45px; padding-right: 20px;"></i>
-					<i class="fab fa-instagram" style="width:45px;height:45px; padding-right: 20px;"></i>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12">
-					<div id="map">
-						
-					</div>
-					<p>Opposit Nippon Toyoto<br/>Mekkadampu P.O<br/>Mekkadampu<br/>Muvattupuzha<br/>Pin:682316</p>
-			</div>
-		</div>
-	</div>
-</section>
-		 
-		   
-			<footer id="footer" class="text-center">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-								<div class="copyright">
-								<p style="color:whitesmoke;">Developed by <a target="_blank" href="https://maxffort.com"><span style="color: red;">Maxffort Technologies Pvt Ltd</span> </a></p>
-							</div>
-	
-						</div>
-					</div>
-				</div>
-			</footer> 
-
-
-
-</div>
-
-</div>
-<!-------- End Contach Section---------->
-
-<!--- Script Source Files -->
-
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
-<script>
-		// Initialize and add the map
-		function initMap() {
-			// The location of Uluru
-			var uluru = {lat: 9.978321, lng: 76.534904};
-			// The map, centered at Uluru
-			var map = new google.maps.Map(
-					document.getElementById('map'), {zoom: 14, center: uluru});
-			// The marker, positioned at Uluru
-			var marker = new google.maps.Marker({position: uluru, map: map});
-		}
-</script>
-<script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPuG_zRGNoJqeourEDPRYc4HK2FxrMZoU&callback=initMap">
-</script>
-
-<script>
-		$(document).ready(function(){
-		  
-		  $("a").on('click', function(event) {
-		
-			
-			if (this.hash !== "") {
-			  
-			  event.preventDefault();
-		
-			  
-			  var hash = this.hash;
-		
-			  
-			  $('html, body').animate({
-				scrollTop: $(hash).offset().top
-			  }, 800, function(){
-		   
-				
-				window.location.hash = hash;
-			  });
-			} 
-		  });
-		});
-		</script>
-<!--- End of Script Source Files -->
-<script>
-
-		
-
-		$(window).scroll(function() {
-			$('#imageSlide').each(function(){
-			var imagePos = $(this).offset().top;
-	
-			var topOfWindow = $(window).scrollTop();
-				if (imagePos < topOfWindow+600) {
-					$(this).addClass("slideRight");
-				}
-			});       
-		$('#imageSlide1').each(function(){
-			var imagePos = $(this).offset().top;
-	
-			var topOfWindow = $(window).scrollTop();
-				if (imagePos < topOfWindow+600) {
-					$(this).addClass("slideLeft");
-				}
-			});
-		$('#imageSlide3').each(function(){
-			var imagePos = $(this).offset().top;
-	
-			var topOfWindow = $(window).scrollTop();
-				if (imagePos < topOfWindow+600) {
-					$(this).addClass("slideUp");
-				}
-			});
-		});
-	</script>
-	<script>
-	    document.onreadystatechange = function () {
-  var state = document.readyState
-  if (state == 'interactive') {
-       document.getElementById('contents').style.visibility="hidden";
-  } else if (state == 'complete') {
-      setTimeout(function(){
-         document.getElementById('interactive');
-         document.getElementById('centralise').style.visibility="hidden";
-         document.getElementById('contents').style.visibility="visible";
-      },1000);
+  @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+  @import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
+  html{
+    overflow-x: hidden;
+    width: 100%;
+  }
+  body{
+  overflow-x: hidden;
+  font-family: 'Carter One', cursive;
+  color: antiquewhite;
+  background-color: black;
+  
+}
+/*-----Loading Screen-------*/
+#contents{
+  visibility: hidden;
+}
+#centralise{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.line{
+  position: sticky;
+  display: inline-flex;
+  height: 60px;
+  border-radius: 10px;
+  width: 10px;
+  background: white;
+}
+#l1{
+  animation: anim 2s linear infinite;
+  animation-delay: 0s;
+}
+#l2{
+  animation: anim 2s linear infinite;
+  animation-delay: 0.12s;
+}
+#l3{
+  animation: anim 2s linear infinite;
+  animation-delay: 0.24s;
+}
+#l4{
+  animation: anim 2s linear infinite;
+  animation-delay: 0.36s;
+}
+#l5{
+  animation: anim 2s linear infinite;
+  animation-delay: 0.48s;
+}
+#l6{
+  animation: anim 2s linear infinite;
+  animation-delay: 0.60s;
+}
+#l7{
+  animation: anim 2s linear infinite;
+  animation-delay: 0.72s;
+}
+#l8{
+  animation: anim 2s linear infinite;
+  animation-delay: 0.84s;
+}
+#l9{
+  animation: anim 2s linear infinite;
+  animation-delay: 0.96s;
+}
+#l10{
+  animation: anim 2s linear infinite;
+  animation-delay: 1.08s;
+}
+@keyframes anim{
+  25%{
+      transform: scale(0,2.5);
+  }
+  50%{
+      transform: scale(1);
   }
 }
-	</script>
-	
-
-</body>
-</html>
 
 
 
+/*-----navigation-------*/
 
-<!--- Check out my course on Udemy! -->
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0,0,0, 0.85)!important;
+} 
+.navbar-brand img{
+  height: 2rem;
+}
+.navbar-nav li{
+  padding-right: .7rem;
+
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+color: red;
+}
+
+/*-----landing page starting------*/
+.home-inner{
+  background-image: url(img/benz.jpg);
+  filter: brightness(50%);
+  position: absolute;
+}
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+.caption h1{
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+  padding-top: 6rem;
+}
+.btn-lg{
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+}
+.heading {
+  font-size: 20px;
+}
+
+#about1 {
+  
+  background: url(img/about1.png) no-repeat ;
+  background-size: cover;   
+  color: #ffffff;
+  height: 550px;
+  width: 100%;
+  padding-top: 100px; 
+  padding-bottom: 550px;
+}
+#about1 p{
+  font-size: 20px;
+}
+#about2 {
+  
+  /* background: url(img/blackaudi.png) no-repeat center center; */
+  
+  color: #ffffff;
+  padding-top: 120px; 
+  padding-bottom: 120px;
+
+  
+}
+#about2 h1{
+  text-align: right;
+}
+#about3 {
+  
+  background: url(img/about9.png) no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+  padding-top: 100px; 
+  padding-bottom: 100px;
+}
+.card-group{
+  padding-top: 100px; 
+  padding-bottom: 100px;
+  opacity: .9;
+  
+}
+#services{
+  background: black;
+
+}
+#about4{
+  padding-top: 120px; 
+  padding-bottom: 120px;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#contact{
+  background: #202020;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #D3D3D3;
+}
+#contact h5,h3{
+  font-family: 'Carter One', cursive;
+}
+#contact p{
+  margin-top: 10px;
+}
+#map{
+  height: 150px;
+  width: 80%;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+ 
+@media (max-width:768px){
+  #about1 p{
+    font-size: 15px;
+  }
+  #about1 h1{
+    font-size: 20px;
+  }
+  #about1 #logo2 img{
+    width: 10px;
+    height: 20px;
+  }
+ 
+  #about2 h1{
+    font-size: 35px;
+  }
+  .caption h1{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px){
+  .navnew img{
+    min-width: 10% !important;
+  }
+}
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
