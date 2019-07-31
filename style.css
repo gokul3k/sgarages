@@ -262,7 +262,12 @@ color: red;
   }
 }
 
-width
+@media (max-width:576px){
+  .navbar-brand img{
+    min-width: 40%!important;
+
+  }
+}
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
