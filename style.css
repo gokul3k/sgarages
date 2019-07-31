@@ -1,14 +1,14 @@
   @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
   @import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
-html,body{
+  html{
+    overflow-x: hidden;
+    width: 100%;
+  }
+  body{
   overflow-x: hidden;
   font-family: 'Carter One', cursive;
   color: antiquewhite;
   background-color: black;
-  width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
   
 }
 /*-----Loading Screen-------*/
@@ -88,7 +88,6 @@ html,body{
   font-size: .9rem;
   letter-spacing: .1rem;
   background: rgba(0,0,0, 0.85)!important;
-  width: 100%;
 } 
 .navbar-brand img{
   height: 2rem;
@@ -267,10 +266,9 @@ color: red;
   }
 }
 
-@media (max-width:576px){
-  .navbar-brand img{
-    min-width: 40%!important;
-
+@media (max-width: 576px){
+  .navnew img{
+    min-width: 10% !important;
   }
 }
 /*============ BOOTSTRAP BREAK POINTS:
