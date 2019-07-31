@@ -4,14 +4,13 @@ body{
   overflow-x: hidden;
   font-family: 'Carter One', cursive;
   color: antiquewhite;
-  background-color: black; 
-}
-#contents
-{
-visibility: hidden;
+  background-color: black;
+  
 }
 /*-----Loading Screen-------*/
-
+#contents{
+  visibility: hidden;
+}
 #centralise{
   position: absolute;
   top: 50%;
@@ -263,7 +262,7 @@ color: red;
   }
 }
 
-
+width
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
