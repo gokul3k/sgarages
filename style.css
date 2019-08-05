@@ -10,6 +10,10 @@
   background-color: black;
   
 }
+#mapid{
+  height: 150px;
+  width: 80%;
+}
 /*-----Loading Screen-------*/
 #contents{
   visibility: hidden;
