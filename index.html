@@ -280,9 +280,10 @@
 					<i class="fab fa-instagram" style="width:45px;height:45px; padding-right: 20px;"></i>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12">
-					<div id="map">
-						
-					</div>
+					<a href="https://www.google.com/maps/place/9%C2%B058'42.0%22N+76%C2%B032'05.7%22E/@9.9792797,76.5332401,17.5z/data=!4m5!3m4!1s0x0:0x0!8m2!3d9.978321!4d76.534904">
+				<div id="mapid">
+					
+				</div></a>
 					<p>Opposite Nippon Toyota<br/>Mekkadampu P.O<br/>Mekkadampu<br/>Muvattupuzha<br/>Pin:682316</p>
 			</div>
 		</div>
@@ -330,6 +331,32 @@
 <script async defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPuG_zRGNoJqeourEDPRYc4HK2FxrMZoU&callback=initMap">
 </script>
+
+<!----opensource map script-->
+
+<script>
+var mymap = L.map('mapid').setView([9.978321, 76.534904], 13);
+
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+	maxZoom:22,
+	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+		'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+		'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+	id: 'mapbox.streets'
+}).addTo(mymap);
+
+L.marker([9.978321, 76.534904]).addTo(mymap);
+
+
+L.polygon([
+	[51.509, -0.08],
+	[51.503, -0.06],
+	[51.51, -0.047]
+]).addTo(mymap);
+
+</script>
+
+<!----opensource map script end-->
 
 <script>
 		$(document).ready(function(){
