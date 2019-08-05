@@ -43,39 +43,39 @@
 	
    
 <!-------- Start Home Section---------->
-<div id="home">
+
 <!-------- Naviagation Section---------->
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-	
-	<a class="navbar-brand" href="#">
-		<img src="img/logo2.png"  style="min-width: 60%; height:50px; " alt="logo">
-	</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" 
-		data-target="#navbarResponsive">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarResponsive">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="#home">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#about1">About Us</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#services">Services</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#gallery">Gallery</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#contact">Contact Us</a>
-				</li>
-			</ul>
-		</div>
-	
-</nav>
+<section id="home">
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+				<div class="container">
+						<a class="navbar-brand" href="#">
+						<img src="img/logo2.png"  style="min-width: 60%; height:50px; " alt="logo"></a>
+					<button id="nav-btn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDiv" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+					<div class="collapse navbar-collapse" id="navbarDiv">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#home" data-toggle="collapse" data-target=".navbar-collapse.show">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about1" data-toggle="collapse" data-target=".navbar-collapse.show">About us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#services" data-toggle="collapse" data-target=".navbar-collapse.show">Services</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#gallery" data-toggle="collapse" data-target=".navbar-collapse.show">Gallery</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact" data-toggle="collapse" data-target=".navbar-collapse.show">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+</section>
 
 <!-------- End Naviagation Section---------->
 <div class="landing">
