@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>S Garages</title>
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
-		integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-		crossorigin="" />
+	integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+	crossorigin=""/>
 	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
-		integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
-		crossorigin=""></script>
+	integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+	crossorigin=""></script>
 	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/fixed.css">
@@ -18,503 +17,480 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
 	<!--Font Awesome-->
-	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 
 <body data-spy="scroll" data-target="#navbarResponsive">
-
-	<div id='centralise'>
-		<div class="text-center">
-			<img id="logo2" src="img/logo.png" style="width: 75px; height:100px; " alt="logo"><br><br>
-		</div>
-		<div id='l1' class='line'></div>
-		<div id='l2' class='line'></div>
-		<div id='l3' class='line'></div>
-		<div id='l4' class='line'></div>
-		<div id='l5' class='line'></div>
-		<div id='l6' class='line'></div>
-		<div id='l7' class='line'></div>
-		<div id='l8' class='line'></div>
-		<div id='l9' class='line'></div>
-		<div id='l10' class='line'></div>
-	</div>
+	
+		<div id='centralise'>
+							<div class="text-center">
+								<img id ="logo2" src="img/logo.png" style="width: 75px; height:100px; " alt="logo"><br><br>
+							 </div>
+				<div id='l1' class='line'></div>
+				<div id='l2' class='line'></div>
+				<div id='l3' class='line'></div>
+				<div id='l4' class='line'></div>
+				<div id='l5' class='line'></div>
+				<div id='l6' class='line'></div>
+				<div id='l7' class='line'></div>
+				<div id='l8' class='line'></div>
+				<div id='l9' class='line'></div>
+				<div id='l10' class='line'></div>
+	</div> 
 
 	<div id="contents">
-		<div class="sidebar-contact">
-			<div class="toggle">
-
-			</div>
-			<h2 style="color: rgb(95, 64, 64);">Contact Us</h2>
-			<form id="contactusform" action="https://formspree.io/info@sgarages.com" method="POST">
-				<input type="text" placeholder="Name*" style="border-radius: 5px;">
-				<select name="cars" style="border-radius: 5px;">
-					<option value="select">Select Service</option>
-					<option value="pravesh">CAR DETAILING</option>
-					<option value="cuirass">CAR WASH</option>
-					<option value="jsw">INSPECTION</option>
-					<option value="motifs">VINYL WRAPPING</option>
-
-
-				</select>
-				<input type="text" name="" placeholder="Email*" style="border-radius: 5px;">
-				<input type="text" name="" placeholder="Your message*" style="border-radius: 5px;">
-				<button class="button1" type="submit" value="Send">
-					<span>Send a Message</span>
-				</button>
-
-				<div class="social-icons">
-					<div class="whatsapp">
-						<a href="https://wa.me/917034391234"><i class="fab fa-whatsapp"
-								style="width:45px;height:45px; color: rgb(109, 106, 106);"></i></a>
-
+			<div class="sidebar-contact">
+					<div class="toggle">
+		
 					</div>
+					<h2 style="color: rgb(95, 64, 64);">Contact Us</h2>
+					<form id="contactusform" action="https://formspree.io/info@sgarages.com" method="POST">
+						<input type="text"  placeholder="Name*" style="border-radius: 5px;">
+						<select name="cars" style="border-radius: 5px;">
+								<option value="select">Select Service</option>
+								<option value="pravesh">CAR DETAILING</option>
+								<option value="cuirass">CAR WASH</option>
+								<option value="jsw">INSPECTION</option>
+								<option value="motifs">VINYL WRAPPING</option>
+								
+		
+							  </select>
+						<input type="text" name="" placeholder="Email*" style="border-radius: 5px;">
+						<input type="text" name="" placeholder="Your message*" style="border-radius: 5px;">
+						<button class="button1" type="submit" value="Send">
+							<span>Send a Message</span>
+						</button>
+						
+						<div class="social-icons">
+							<div class="whatsapp">
+								<a href="https://wa.me/917034391234"><i class="fab fa-whatsapp" style="width:45px;height:45px; color: rgb(109, 106, 106);"></i></a>
+								
+							</div>
+						</div>
+					</form>
+		
+		
 				</div>
-			</form>
-
-
-		</div>
-
-
-
-		<!-------- Start Home Section---------->
-		<!-------- Naviagation Section---------->
-		<section id="home">
-			<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-
-				<a class="navbar-brand" href="#">
-					<img src="img/logo2.png" style="min-width: 60%; height:50px; " alt="logo"></a>
-				<button id="nav-btn" class="navbar-toggler" type="button" data-toggle="collapse"
-					data-target="#navbarDiv" aria-expanded="false" aria-label="Toggle navigation">
+		
+	
+   
+<!-------- Start Home Section---------->
+<!-------- Naviagation Section---------->
+<section id="home">
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+				
+						<a class="navbar-brand" href="#">
+						<img src="img/logo2.png"  style="min-width: 60%; height:50px; " alt="logo"></a>
+					<button id="nav-btn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDiv" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarDiv">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#home" data-toggle="collapse" data-target=".navbar-collapse.show"
-								style="text-align: center">Home <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#about1" data-toggle="collapse"
-								data-target=".navbar-collapse.show" style="text-align: center">About us</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#services" data-toggle="collapse"
-								data-target=".navbar-collapse.show" style="text-align: center">Services</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#gallery" data-toggle="collapse"
-								data-target=".navbar-collapse.show" style="text-align: center">Gallery</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contact" data-toggle="collapse"
-								data-target=".navbar-collapse.show" style="text-align: center">Contact Us</a>
-						</li>
-					</ul>
-				</div>
-
-			</nav>
-		</section>
-		<!-------- End Naviagation Section---------->
-		<div class="landing">
-			<div class="home-wrap">
-				<div class="home-inner">
-
-				</div>
-			</div>
-		</div>
-
-		<div class="caption text-center">
-			<h1><span>LIKE NOTHING ELSE...</span></h1>
-			<a class=" btn btn-lg" style="background-color:rgb(0, 0, 0,0.2);;color:red;outline-style: solid;
-	outline-color: red;" href="#about1">Get Started</a>
-		</div>
-
-		<!-------- End Home Section---------->
-
-		<!-------- Start About us Section---------->
-
-		<section id="about1">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-sm-12">
-						<div class="section-title">
-
-							<h1><b>WHO WE ARE</b></h1>
-
-						</div>
+					<div class="collapse navbar-collapse" id="navbarDiv">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#home" data-toggle="collapse" data-target=".navbar-collapse.show" style="text-align: center">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about1" data-toggle="collapse" data-target=".navbar-collapse.show" style="text-align: center">About us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#services" data-toggle="collapse" data-target=".navbar-collapse.show" style="text-align: center">Services</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#gallery" data-toggle="collapse" data-target=".navbar-collapse.show" style="text-align: center">Gallery</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact" data-toggle="collapse" data-target=".navbar-collapse.show" style="text-align: center">Contact Us</a>
+							</li>
+						</ul>
 					</div>
+				
+			</nav>
+</section>
+<!-------- End Naviagation Section---------->
+<div class="landing">
+	<div class="home-wrap">
+		<div class="home-inner">
 
-					<div class="col-md-12  col-sm-12 col-lg-9 ">
-						<p><span style="color: red;">S </span><span style="color: red;"> G</span>arage was born out of
-							pure passion, the love of cars and
-							the desire to create best car care products, with a focus on protective
+		</div>
+	</div>
+</div>
+
+<div class="caption text-center">
+	<h1><span>LIKE NOTHING ELSE...</span></h1>
+	<a class=" btn btn-lg" style="background-color:rgb(0, 0, 0,0.2);;color:red;outline-style: solid;
+	outline-color: red;" href="#about1" >Get Started</a>
+</div>
+
+<!-------- End Home Section---------->
+
+<!-------- Start About us Section---------->
+
+<section id="about1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<div class="section-title">
+
+						<h1><b>WHO WE ARE</b></h1>
+						
+					</div>
+				</div>
+
+				<div class="col-md-12  col-sm-12 col-lg-9 ">
+						<p><span style="color: red;">S </span><span style="color: red;"> G</span>arage was born out of pure passion, the love of cars and
+							the desire to create best car care products, with a focus on protective 
 							coatings-the cornerstone of our success.</p>
-						<p>We aim to produce the most <span style="color: red;">Innovative</span> surface care products
-							in the
+						<p>We aim to produce the most <span style="color: red;">Innovative</span> surface care products in the
 							world following the discovery that the other so called "long-life" aftermarket
 							coating simply dont come anywhere close to their market claim</p>
-						<div class="text-center">
-							<img id="logo2" src="img/logo.png" style="width: 75px; height:100px; " alt="logo">
-						</div>
-					</div>
-
+								<div class="text-center">
+								   <img id ="logo2" src="img/logo.png" style="width: 75px; height:100px; " alt="logo">
+							    </div>
 				</div>
+				
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<section id="about2">
+	<section id="about2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-lg-6">
+						<img id="imageSlide" src="img/backaudi2.jpg" >
+					
+				</div>
+				<div class="col-md-6 col-sm-12 col-lg-6 text-center">
+						<h1 id="imageSlide1">WE <span style="color: red;">LOVE </span><br> YOUR <span style="color: red;"> CAR</span> AS SAME<br>AS YOU DO</h1>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<section id="about3">
+		<div class="container">
+			<div class="row">
+				<div class="card-group ">
+					<div class="card bg-dark" >
+					  
+					  <div class="card-body">
+						<h5 class="card-title"><i class="fas fa-wrench" style="color: red; width:45px;height:45px;"></i>TRAINED PROFESSIONALS</h5>
+						<p class="card-text">To ensure that only highest level of automotive professionals work
+							on your car, <span style="color: red;">S </span><span style="color: red;"> D</span>ETAILING <span style="color: red;"> G</span>ARAGE has partnered with industrial institutes all across India.
+						</p>
+					  </div>
+					  
+					</div>
+					<div class="card bg-dark">
+					  
+					  <div class="card-body">
+						<h5 class="card-title"><i class="fas fa-handshake" style="color: red; width:50px;height:50px;"></i>PERFECT QUALITY</h5>
+						<p class="card-text">Let us help bring out the shine in your car.Whether your <span style="color: red;"> detailing </span> your personal car or
+							if you operated a detail shop,We have the best quality detailing products.
+						</p>
+					  </div>
+					  
+					</div>
+					<div class="card bg-dark">
+					  
+					  <div class="card-body">
+						<h5 class="card-title"><i class="fas fa-box-open" style="color: red; width:50px;height:50px;"></i>BEST PRODUCT USED</h5>
+						<p class="card-text">We've got products here that cover all bases, You'll want to home in on your alloys
+							witha quality car wheel cleaner, get the trim back to its<span style="color: red;">  original </span> lustre.
+						</p>
+					  </div>
+					  
+					</div>
+				  </div>
+				
+			</div>
+		</div>
+	</section>
+	
+<!-------- End About Us Section---------->
+
+<!-------- Start Services Section---------->
+<div id="services">
+		
+		<section id="about4">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-sm-12 col-lg-6">
-						<img id="imageSlide" src="img/backaudi2.jpg">
-
-					</div>
-					<div class="col-md-6 col-sm-12 col-lg-6 text-center">
-						<h1 id="imageSlide1">WE <span style="color: red;">LOVE </span><br> YOUR <span
-								style="color: red;"> CAR</span> AS SAME<br>AS YOU DO</h1>
-					</div>
-
-				</div>
-			</div>
-		</section>
-		<section id="about3">
-			<div class="container">
-				<div class="row">
-					<div class="card-group ">
-						<div class="card bg-dark">
-
-							<div class="card-body">
-								<h5 class="card-title"><i class="fas fa-wrench"
-										style="color: red; width:45px;height:45px;"></i>TRAINED PROFESSIONALS</h5>
-								<p class="card-text">To ensure that only highest level of automotive professionals work
-									on your car, <span style="color: red;">S </span><span style="color: red;">
-										D</span>ETAILING <span style="color: red;"> G</span>ARAGE has partnered with
-									industrial institutes all across India.
-								</p>
-							</div>
-
-						</div>
-						<div class="card bg-dark">
-
-							<div class="card-body">
-								<h5 class="card-title"><i class="fas fa-handshake"
-										style="color: red; width:50px;height:50px;"></i>PERFECT QUALITY</h5>
-								<p class="card-text">Let us help bring out the shine in your car.Whether your <span
-										style="color: red;"> detailing </span> your personal car or
-									if you operated a detail shop,We have the best quality detailing products.
-								</p>
-							</div>
-
-						</div>
-						<div class="card bg-dark">
-
-							<div class="card-body">
-								<h5 class="card-title"><i class="fas fa-box-open"
-										style="color: red; width:50px;height:50px;"></i>BEST PRODUCT USED</h5>
-								<p class="card-text">We've got products here that cover all bases, You'll want to home
-									in on your alloys
-									witha quality car wheel cleaner, get the trim back to its<span style="color: red;">
-										original </span> lustre.
-								</p>
-							</div>
-
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</section>
-
-		<!-------- End About Us Section---------->
-
-		<!-------- Start Services Section---------->
-		<div id="services">
-
-			<section id="about4">
-				<div class="container">
-
-					<h1 style="padding-bottom: 20px; "><b>OUR SERVICES</b></h1>
-
-					<div class="text-center">
-						<div class="row">
-							<div class="col-sm-12 col-lg-6 col-md-12">
-								<div class="card" style="height: 300px; width: 100%; border:none;">
-									<div class="card-body" style="background-image: url(img/services2.jpg)">
-										<h2 class="card-title" style="padding-top: 100px;"><b>CAR DETAILING</b></h2>
-
+				
+						<h1 style="padding-bottom: 20px; "><b>OUR SERVICES</b></h1>
+					
+				<div class="text-center">
+					<div class="row">
+								<div class="col-sm-12 col-lg-6 col-md-12">
+								  <div class="card" style="height: 300px; width: 100%; border:none;" >
+									<div class="card-body"  style="background-image: url(img/basic_detailing.jpg)">
+									  <h2 class="card-title" style="padding-top: 100px;"><b>BASIC DETAILING</b></h2>
+									  
 									</div>
+								  </div>
 								</div>
-							</div>
-							<div class="col-sm-12 col-lg-6 col-md-12">
-								<div class="card " style="height: 300px; width: 100%;border:none;">
-									<div class="card-body" style="background-image: url(img/services1.jpg)">
-										<h2 class="card-title" style="padding-top: 100px;"><b>CAR WASH</b></h2>
-
+								<div class="col-sm-12 col-lg-6 col-md-12">
+								  <div class="card "  style="height: 300px; width: 100%;border:none;">
+									<div class="card-body"  style="background-image: url(img/services1.jpg)">
+									  <h2 class="card-title" style="padding-top: 100px;"><b>WASH & WAX</b></h2>
+									  
 									</div>
+								  </div>
 								</div>
-							</div>
 						</div>
 						<div class="row">
-							<div class="col-sm-12 col-lg-6 col-md-12">
-								<div class="card" style="height: 300px; width: 100%;border:none;">
-									<div class="card-body" style="background-image: url(img/services3.jpg)">
-										<h2 class="card-title" style="padding-top: 100px;"><b>INSPECTION</b></h2>
-
+								<div class="col-sm-12 col-lg-6 col-md-12">
+								  <div class="card" style="height: 300px; width: 100%;border:none;">
+									<div class="card-body"  style="background-image: url(img/premium_detailing.jpg)" >
+									  <h2 class="card-title" style="padding-top: 100px;"><b>PREMIUM DETAILING </b></h2>
+									  
 									</div>
+								  </div>
 								</div>
-							</div>
-							<div class="col-sm-12 col-lg-6 col-md-12">
-								<div class="card" style="height: 300px; width: 100%;border:none;">
-									<div class="card-body" style="background-image: url(img/services4.jpg)">
-										<h2 class="card-title" style="padding-top: 100px;"><b>VINYL WRAPPING</b></h2>
-
+								<div class="col-sm-12 col-lg-6 col-md-12">
+								  <div class="card" style="height: 300px; width: 100%;border:none;">
+									<div class="card-body" style="background-image: url(img/ceramic_coating.jpg)">
+									  <h2 class="card-title" style="padding-top: 100px;"><b>CERAMIC COATING</b></h2>
+									  
 									</div>
+								  </div>
 								</div>
-							</div>
 						</div>
-					</div>
 				</div>
+			</div>
 			</section>
 
-		</div>
-		<!-------- End Services Section---------->
+</div>
+<!-------- End Services Section---------->
 
-		<!-------- Start Gallery Section---------->
+<!-------- Start Gallery Section---------->
 
-		<div id="gallery" class="offset">
-			<div class="container">
-				<h1 style="padding-bottom: 20px;padding-top: 75px;"><b>GALLERY</b></h1>
-				<div class="row">
-					<div class="column">
-						<img src="img/1.jpg" style="width:100%">
-						<img src="img/2.jpg" style="width:100%">
-						<img src="img/3.jpg" style="width:100%">
-
-					</div>
-					<div class="column">
-						<img src="img/4.jpg" style="width:100%">
-						<img src="img/5.jpg" style="width:100%">
-						<img src="img/6.jpg" style="width:100%">
-
-					</div>
-					<div class="column">
-						<img src="img/7.jpg" style="width:100%">
-						<img src="img/8.jpg" style="width:100%">
-						<img src="img/1.jpg" style="width:100%">
-
-					</div>
-					<div class="column">
-						<img src="img/2.jpg" style="width:100%">
-						<img src="img/3.jpg" style="width:100%">
-						<img src="img/4.jpg" style="width:100%">
-
-					</div>
+<div id="gallery" class="offset">
+	<div class="container">
+		<h1 style="padding-bottom: 20px;padding-top: 75px;"><b>GALLERY</b></h1>
+		<div class="row"> 
+				<div class="column">
+				  <img src="img/1.jpg" style="width:100%">
+				  <img src="img/2.jpg" style="width:100%">
+				  <img src="img/3.jpg" style="width:100%">
+				 
 				</div>
-			</div>
-
+				<div class="column">
+				  <img src="img/4.jpg" style="width:100%">
+				  <img src="img/5.jpg" style="width:100%">
+				  <img src="img/6.jpg" style="width:100%">
+				  
+				</div>  
+				<div class="column">
+				  <img src="img/7.jpg" style="width:100%">
+				  <img src="img/8.jpg" style="width:100%">
+				  <img src="img/1.jpg" style="width:100%">
+				  
+				</div>
+				<div class="column">
+				  <img src="img/2.jpg" style="width:100%">
+				  <img src="img/3.jpg" style="width:100%">
+				  <img src="img/4.jpg" style="width:100%">
+				  
+				</div>
+			  </div>
 		</div>
-		<!-------- End Gallery Section---------->
 
-		<!-------- Start Contact Section---------->
-		<section id="contact">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-md-8 col-sm-12">
-						<br><br>
-						<h5><b>TALK WITH A HUMAN</b></h5>
+</div>
+<!-------- End Gallery Section---------->
 
-						<h7><i class="fas fa-phone-square" style="width:25px;height:25px;"></i>
-							<b>7034391234</b></h7><br>
-						<h7><i class="fas fa-phone-square" style="width:25px;height:25px;"></i>
-							<b>9072792255</b></h7>
+<!-------- Start Contact Section---------->
+<section id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-12">
+				<br><br>
+					<h5><b>TALK WITH A HUMAN</b></h5>
+					
+					<h7><i class="fas fa-phone-square" style="width:25px;height:25px;" ></i>
+						<b>7034391234</b></h7><br>
+					<h7><i class="fas fa-phone-square" style="width:25px;height:25px;" ></i>
+						<b>9072792255</b></h7>
+					
+					<br/><br/>
+					<h5><b>WE ARE ON SOCIAL MEDIA</b></h5>
+					<i class="fab fa-facebook" style="width:45px;height:45px; padding-right: 20px;"></i>
+					<i class="fab fa-twitter" style="width:45px;height:45px; padding-right: 20px;"></i>
+					<i class="fab fa-instagram" style="width:45px;height:45px; padding-right: 20px;"></i>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+					<a href="https://www.google.com/maps/place/9%C2%B058'42.0%22N+76%C2%B032'05.7%22E/@9.9792797,76.5332401,17.5z/data=!4m5!3m4!1s0x0:0x0!8m2!3d9.978321!4d76.534904">
+				<div id="mapid">
+					
+				</div></a>
 
-						<br /><br />
-						<h5><b>WE ARE ON SOCIAL MEDIA</b></h5>
-						<i class="fab fa-facebook" style="width:45px;height:45px; padding-right: 20px;"></i>
-						<i class="fab fa-twitter" style="width:45px;height:45px; padding-right: 20px;"></i>
-						<i class="fab fa-instagram" style="width:45px;height:45px; padding-right: 20px;"></i>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<a
-							href="https://www.google.com/maps/place/9%C2%B058'42.0%22N+76%C2%B032'05.7%22E/@9.9792797,76.5332401,17.5z/data=!4m5!3m4!1s0x0:0x0!8m2!3d9.978321!4d76.534904">
-							<div id="mapid">
-
+					<p>Opposite Nippon Toyota<br/>Mekkadampu P.O<br/>Mekkadampu<br/>Muvattupuzha<br/>Pin:682316</p>
+			</div>
+		</div>
+	</div>
+</section>
+		 
+		   
+			<footer id="footer" class="text-center">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+								<div class="copyright">
+								<p style="color:whitesmoke;">Developed by <a target="_blank" href="https://maxffort.com"><span style="color: red;">Maxffort Technologies Pvt Ltd</span> </a></p>
 							</div>
-						</a>
-
-						<p>Opposite Nippon Toyota<br />Mekkadampu P.O<br />Mekkadampu<br />Muvattupuzha<br />Pin:682316
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
-		<footer id="footer" class="text-center">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="copyright">
-							<p style="color:whitesmoke;">Developed by <a target="_blank"
-									href="https://maxffort.com"><span style="color: red;">Maxffort Technologies Pvt
-										Ltd</span> </a></p>
+	
 						</div>
-
 					</div>
 				</div>
-			</div>
-		</footer>
+			</footer> 
 
 
 
-	</div>
+</div>
 
-	</div>
-	<!-------- End Contach Section---------->
+</div>
+<!-------- End Contach Section---------->
 
-	<!--- Script Source Files -->
+<!--- Script Source Files -->
 
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
 
-	<!----opensource map script-->
+<!----opensource map script-->
 
-	<script>
-		var mymap = L.map('mapid').setView([9.978321, 76.534904], 13);
+<script>
+var mymap = L.map('mapid').setView([9.978321, 76.534904], 13);
 
-		L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-			maxZoom: 22,
-			attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-				'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-				'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-			id: 'mapbox.streets'
-		}).addTo(mymap);
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+	maxZoom:22,
+	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+		'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+		'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+	id: 'mapbox.streets'
+}).addTo(mymap);
 
 
 
-		var redIcon = new L.Icon({
-			iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
-			shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-			iconSize: [25, 41],
-			iconAnchor: [12, 41],
-			popupAnchor: [1, -34],
-			shadowSize: [41, 41]
-		});
+var redIcon = new L.Icon({
+  iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
 
-		L.marker([9.978321, 76.534904], { icon: redIcon }).addTo(mymap);
+L.marker([9.978321, 76.534904], {icon: redIcon}).addTo(mymap);
 
-		L.polygon([
-			[51.509, -0.08],
-			[51.503, -0.06],
-			[51.51, -0.047]
-		]).addTo(mymap);
+L.polygon([
+	[51.509, -0.08],
+	[51.503, -0.06],
+	[51.51, -0.047]
+]).addTo(mymap);
 
-	</script>
+</script>
 
-	<!----opensource map script end-->
+<!----opensource map script end-->
 
-	<script>
+<script>
 		// Initialize and add the map
 		function initMap() {
 			// The location of Uluru
-			var uluru = { lat: 9.978321, lng: 76.534904 };
+			var uluru = {lat: 9.978321, lng: 76.534904};
 			// The map, centered at Uluru
 			var map = new google.maps.Map(
-				document.getElementById('map'), { zoom: 14, center: uluru });
+					document.getElementById('map'), {zoom: 14, center: uluru});
 			// The marker, positioned at Uluru
-			var marker = new google.maps.Marker({ position: uluru, map: map });
+			var marker = new google.maps.Marker({position: uluru, map: map});
 		}
-	</script>
-	<script async defer
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPuG_zRGNoJqeourEDPRYc4HK2FxrMZoU&callback=initMap">
-		</script>
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPuG_zRGNoJqeourEDPRYc4HK2FxrMZoU&callback=initMap">
+</script>
 
-	<script>
-		$(document).ready(function () {
-
-			$("a").on('click', function (event) {
-
-
-				if (this.hash !== "") {
-
-					event.preventDefault();
-
-
-					var hash = this.hash;
-
-
-					$('html, body').animate({
-						scrollTop: $(hash).offset().top
-					}, 800, function () {
-
-
-						window.location.hash = hash;
-					});
-				}
-			});
+<script>
+		$(document).ready(function(){
+		  
+		  $("a").on('click', function(event) {
+		
+			
+			if (this.hash !== "") {
+			  
+			  event.preventDefault();
+		
+			  
+			  var hash = this.hash;
+		
+			  
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+		   
+				
+				window.location.hash = hash;
+			  });
+			} 
+		  });
 		});
-	</script>
-	<!--- End of Script Source Files -->
-	<script>
+		</script>
+<!--- End of Script Source Files -->
+<script>
 
+		
 
-
-		$(window).scroll(function () {
-			$('#imageSlide').each(function () {
-				var imagePos = $(this).offset().top;
-
-				var topOfWindow = $(window).scrollTop();
-				if (imagePos < topOfWindow + 600) {
+		$(window).scroll(function() {
+			$('#imageSlide').each(function(){
+			var imagePos = $(this).offset().top;
+	
+			var topOfWindow = $(window).scrollTop();
+				if (imagePos < topOfWindow+600) {
 					$(this).addClass("slideRight");
 				}
-			});
-			$('#imageSlide1').each(function () {
-				var imagePos = $(this).offset().top;
-
-				var topOfWindow = $(window).scrollTop();
-				if (imagePos < topOfWindow + 600) {
+			});       
+		$('#imageSlide1').each(function(){
+			var imagePos = $(this).offset().top;
+	
+			var topOfWindow = $(window).scrollTop();
+				if (imagePos < topOfWindow+600) {
 					$(this).addClass("slideLeft");
 				}
 			});
-			$('#imageSlide3').each(function () {
-				var imagePos = $(this).offset().top;
-
-				var topOfWindow = $(window).scrollTop();
-				if (imagePos < topOfWindow + 600) {
+		$('#imageSlide3').each(function(){
+			var imagePos = $(this).offset().top;
+	
+			var topOfWindow = $(window).scrollTop();
+				if (imagePos < topOfWindow+600) {
 					$(this).addClass("slideUp");
 				}
 			});
 		});
 	</script>
 	<script>
-		document.onreadystatechange = function () {
-			var state = document.readyState
-			if (state == 'interactive') {
-				document.getElementById('contents').style.visibility = "hidden";
-			} else if (state == 'complete') {
-				setTimeout(function () {
-					document.getElementById('interactive');
-					document.getElementById('centralise').style.visibility = "hidden";
-					document.getElementById('contents').style.visibility = "visible";
-				}, 1000);
-			}
-		}
+	    document.onreadystatechange = function () {
+  var state = document.readyState
+  if (state == 'interactive') {
+       document.getElementById('contents').style.visibility="hidden";
+  } else if (state == 'complete') {
+      setTimeout(function(){
+         document.getElementById('interactive');
+         document.getElementById('centralise').style.visibility="hidden";
+         document.getElementById('contents').style.visibility="visible";
+      },1000);
+  }
+}
 	</script>
 	<script type="text/javascript">
-		$(document).ready(function () {
-			document.getElementById("contactusform").reset();
-			$('.toggle').click(function () {
-				$('.sidebar-contact').toggleClass('active')
-				$('.toggle').toggleClass('active')
-			})
-		})
-	</script>
-
+        $(document).ready(function(){
+        document.getElementById("contactusform").reset();
+        $('.toggle').click(function(){
+            $('.sidebar-contact').toggleClass('active')
+            $('.toggle').toggleClass('active')
+        })
+    })
+    </script>
+	
 
 </body>
-
 </html>
+
+
