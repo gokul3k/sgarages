@@ -390,8 +390,8 @@ color: red;
 }
 
 @media screen and (orientation: landscape) {
-  .toggle {
-    top: 50px;
+  .sidebar-contact{
+    top: 50%;
   }
 /*============ BOOTSTRAP BREAK POINTS:
 
