@@ -391,7 +391,7 @@ color: red;
 
 @media screen and (orientation: landscape) {
   .sidebar-contact{
-    top: 50%;
+    top: 100px;
   }
 /*============ BOOTSTRAP BREAK POINTS:
 
