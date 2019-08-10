@@ -388,6 +388,11 @@ color: red;
     min-width: 10% !important;
   }
 }
+
+@media screen and (orientation: landscape) {
+  .toggle {
+    top: 50px;
+  }
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
