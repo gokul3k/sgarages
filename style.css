@@ -391,10 +391,21 @@ color: red;
 
 @media screen and (max-height: 320px) {
   .sidebar-contact{
-
-    bottom: 20%;
+    
+    bottom: 50%;
+    background: url('img/contact_background.jpg');
+    position: absolute;
+    
+  
   }
-}
+  .social-icons{
+    position: absolute;
+    height: 500px;
+    top: 365%;
+
+  }
+  
+  }
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
