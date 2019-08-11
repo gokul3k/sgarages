@@ -388,15 +388,11 @@ color: red;
     min-width: 10% !important;
   }
 }
-/* 
-@media screen and (orientation: landscape) {
-  .sidebar-contact{
-  
-    top:50px;
-    
+@media only screen and (orientation: landscape) {
+ .sidebar-contact{
+    font-size:50px;
   }
-  
-  } */
+}
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
