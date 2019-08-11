@@ -390,7 +390,7 @@ color: red;
 }
 @media only screen and (orientation: landscape) {
  .sidebar-contact{
-    font-size:50px;
+    border-radius: 60px;
   }
 }
 /*============ BOOTSTRAP BREAK POINTS:
