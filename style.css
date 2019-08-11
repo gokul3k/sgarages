@@ -395,14 +395,13 @@ color: red;
     bottom: 50%;
     background: url('img/contact_background.jpg');
     position: absolute;
-    
   
   }
   .social-icons{
     position: absolute;
-    height: 500px;
+    height: auto;
     top: 365%;
-
+    
   }
   
   }
