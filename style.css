@@ -388,9 +388,11 @@ color: red;
     min-width: 10% !important;
   }
 }
-@media only screen and (orientation: landscape) {
- .sidebar-contact{
-    border-radius: 60px;
+
+@media screen and (max-height: 320px) {
+  .sidebar-contact{
+
+    bottom: 20%;
   }
 }
 /*============ BOOTSTRAP BREAK POINTS:
