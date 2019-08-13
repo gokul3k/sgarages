@@ -389,7 +389,7 @@ color: red;
   }
 }
 
-@media screen and (max-height: 320px) {
+/* @media screen and (max-height: 320px) {
   .sidebar-contact{
     
     bottom: 50%;
@@ -404,7 +404,7 @@ color: red;
     
   }
   
-  }
+  } */
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
