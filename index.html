@@ -72,6 +72,39 @@
 		
 		
 				</div>
+
+
+				<div class="sidebar-contact2" >
+					<div class="toggle2">
+		
+					</div>
+					<h2 style="color: rgb(255, 255, 255);">Contact Us</h2>
+					<form id="contactusform2" action="https://formspree.io/info@sgarages.com" method="POST">
+						<input type="text"  placeholder="Name*" style="border-radius: 5px;">
+						<select name="cars" style="border-radius: 5px;">
+								<option value="select">Select Service</option>
+								<option value="pravesh">BASIC DETAILING</option>
+								<option value="cuirass">PREMIUM DETAILING</option>
+								<option value="jsw">WASH & WAX</option>
+								<option value="motifs">CERAMIC COATING</option>
+						</select>
+
+						<input type="text" name="" placeholder="Email*" style="border-radius: 5px;">
+						<input type="text" name="" placeholder="Your message*" style="border-radius: 5px;">
+						<button class="button1" type="submit" value="Send">
+							<span>Send a Message</span>
+						</button>
+						
+						<div class="social-icons">
+							<div class="whatsapp">
+								<a href="https://wa.me/917034391234"><i class="fab fa-whatsapp" style="width:30px;height:30px; color: rgb(255, 255, 255);"></i></a>
+								
+							</div>
+						</div>
+					</form>
+		
+		
+				</div>
 		
 	
    
@@ -488,6 +521,16 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPuG_zRGNoJqeourEDPRYc4HK
   }
 }
 	</script>
+	<script type="text/javascript">
+        $(document).ready(function(){
+        document.getElementById("contactusform2").reset();
+        $('.toggle2').click(function(){
+            $('.sidebar-contact2').toggleClass('active')
+            $('.toggle2').toggleClass('active')
+        })
+    })
+	</script>
+	
 	<script type="text/javascript">
         $(document).ready(function(){
         document.getElementById("contactusform").reset();
